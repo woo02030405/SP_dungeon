@@ -6,11 +6,6 @@ using System.Linq;
 public enum CharacterState
 {
     Idle,       // 대기 상태
-    Walking,    // 걷는 상태
-    Running,    // 달리는 상태
-    Attacking,  // 공격하는 상태
-    Defending,  // 방어하는 상태
-    Dead        // 사망 상태
 }
 
 // --- 2. ItemType 열거형 정의 (아이템 부위 구분을 위함) ---
